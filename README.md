@@ -1,6 +1,6 @@
 Demo project to showcase bug with `FlatList` / `VirtualizedList` and the `onViewableItemsChanged` callback on react-native `0.45.1`
 
-## Steps to reproduce:
+## Steps to reproduce:
 * Clone the project
 * yarn install
 * yarn run ios
