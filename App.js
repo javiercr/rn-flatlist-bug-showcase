@@ -23,8 +23,6 @@ export default class App extends React.Component {
           renderItem={({item}) => <Text style={styles.item}>{item.key}</Text>}
           style={styles.list}
           onViewableItemsChanged={this.onViewableItemsChanged}
-          initialNumToRender={3}
-          windowSize={5}
         />
       </View>
     );
